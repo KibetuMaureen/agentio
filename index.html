@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentIO - Create Functional AI Agents</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/Logo-Agentio4.png" alt="AgentIO Logo" style="height: 80px;">
+            </div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#vendors">Vendors</a>
+                <a href="#pricing">Pricing</a>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <a href="#chat" class="button button-primary">Book a Demo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg-elements">
+            <div class="hero-bg-circle-1"></div>
+            <div class="hero-bg-circle-2"></div>
+            <div class="hero-bg-circle-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">Powered by Advanced AI</div>
+                    <h1 class="hero-title">Create AI Agents Through Simple Conversation</h1>
+                    <p class="hero-description">AgentIO builds functional AI agents that connect to your preferred vendors and services, all through a natural text or voice interface.</p>
+                    <div class="hero-buttons">
+                        <a href="#chat" class="button button-primary">Book a Demo</a>
+                        <a href="#features" class="button button-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-container">
+                        <div class="hero-image-glow"></div>
+                        <div class="hero-image-content">
+                            <div class="hero-image-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+                                    <path d="M7 17.73A2 2 0 1 1 7 15a2 2 0 0 1 0 2.73z"></path>
+                                    <path d="M17 17.73A2 2 0 1 1 17 15a2 2 0 0 1 0 2.73z"></path>
+                                </svg>
+                                <div class="hero-image-text">
+                                    <h3 class="hero-image-title">Your AI Agent</h3>
+                                    <p class="hero-image-description">Connecting to your favorite services</p>
+                                </div>
+                                <div class="hero-image-badge">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                    </svg>
+                                    <span class="hero-image-badge-text">Powered by advanced AI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="features-bg-elements">
+            <div class="features-bg-line-top"></div>
+            <div class="features-bg-line-bottom"></div>
+        </div>
+        <div class="container">
+            <div class="features-header">
+                <div class="features-badge">Features</div>
+                <h2 class="features-title">How AgentIO Works</h2>
+                <p class="features-description">Create powerful AI agents that connect to your preferred services through natural conversation</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Text Interface</h3>
+                    <p class="feature-description">Interact with AgentIO through a familiar chat interface, just like ChatGPT</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Voice Enabled</h3>
+                    <p class="feature-description">Speak to your agent and receive audio responses for a hands-free experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Vendor Connections</h3>
+                    <p class="feature-description">Connect to hundreds of services and APIs with secure authentication</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+                            <path d="M7 17.73A2 2 0 1 1 7 15a2 2 0 0 1 0 2.73z"></path>
+                            <path d="M17 17.73A2 2 0 1 1 17 15a2 2 0 0 1 0 2.73z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Custom Agents</h3>
+                    <p class="feature-description">Create specialized agents for specific tasks or integrate with multiple services</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">No Code Setup</h3>
+                    <p class="feature-description">No coding required - describe what you need and AgentIO builds it for you</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Secure Access</h3>
+                    <p class="feature-description">Your credentials and data are encrypted and never shared with third parties</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agent Options Section -->
+    <section class="agent-options-section">
+        <div class="agent-bg-elements">
+            <div class="agent-bg-circle-1"></div>
+            <div class="agent-bg-circle-2"></div>
+        </div>
+        <div class="container">
+            <div class="agent-options-header">
+                <div class="agent-options-badge">Featured Agents</div>
+                <h2 class="agent-options-title">Popular Agent Templates</h2>
+                <p class="agent-options-description">Start with these pre-configured agents or customize them to your specific needs</p>
+            </div>
+            <div class="agent-options-grid">
+                <!-- Restaurant Booking Agent -->
+                <div class="agent-card">
+                    <div class="agent-card-header"></div>
+                    <div class="agent-card-title">
+                        <div class="agent-title-content">
+                            <div class="agent-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                            </div>
+                            <div class="agent-title-text">
+                                <h3>Restaurant Booking</h3>
+                                <p>Calendar-based restaurant reservation agent</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agent-card-content">
+                        <ul class="agent-features">
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Agent needs access to a calendar</span>
+                            </li>
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Looks for events in the current week</span>
+                            </li>
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>If the event has an assigned place, it checks that it is a restaurant and can find its phone number on Google Places API</span>
+                            </li>
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>If there is a number, it generates a request for a booking depending on the number of people invited to the event</span>
+                            </li>
+                        </ul>
+                        <div class="agent-coming-soon">
+                            <h4 class="agent-coming-soon-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                                </svg>
+                                Coming Soon
+                            </h4>
+                            <ul class="agent-coming-soon-features">
+                                <li class="agent-coming-soon-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    <span>Convert the request to voice using text-to-speech models</span>
+                                </li>
+                                <li class="agent-coming-soon-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                    <span>Use Twilio to make a phone call</span>
+                                </li>
+                                <li class="agent-coming-soon-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    <span>Process the phone call audio and respond appropriately</span>
+                                </li>
+                                <li class="agent-coming-soon-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    <span>Confirm if the booking was reserved and update the calendar event</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="agent-card-footer">
+                        <div class="agent-footer-content">
+                            <div class="agent-badges">
+                                <span class="agent-badge">Calendar</span>
+                                <span class="agent-badge">Google Places</span>
+                            </div>
+                            <a href="#chat" class="button button-primary">Book a demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Email Manager Agent -->
+                <div class="agent-card">
+                    <div class="agent-card-header"></div>
+                    <div class="agent-card-title">
+                        <div class="agent-title-content">
+                            <div class="agent-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="agent-title-text">
+                                <h3>Email Manager</h3>
+                                <p>Intelligent email organization and summarization</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agent-card-content">
+                        <ul class="agent-features">
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Agent needs access to your Gmail inbox</span>
+                            </li>
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Agent can fetch all unread emails</span>
+                            </li>
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Agent can fetch all labels</span>
+                            </li>
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Agent can label all unread emails using the most appropriate label</span>
+                            </li>
+                            <li class="agent-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Agent can create a summary of unread emails (email per sender, average time in inbox, etc.)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="agent-card-footer">
+                        <div class="agent-footer-content">
+                            <div class="agent-badges">
+                                <span class="agent-badge">Gmail</span>
+                                <span class="agent-badge">Email</span>
+                                <span class="agent-badge">Organization</span>
+                            </div>
+                            <a href="#chat" class="button button-primary">Book a Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vendors Section -->
+    <section id="vendors" class="vendors-section">
+        <div class="vendors-bg-elements">
+            <div class="vendors-bg-circle-1"></div>
+            <div class="vendors-bg-circle-2"></div>
+        </div>
+        <div class="container">
+            <div class="vendors-header">
+                <div class="vendors-badge">Integrations</div>
+                <h2 class="vendors-title">Connect to Your Favorite Services</h2>
+                <p class="vendors-description">AgentIO integrates with hundreds of vendors and services to create powerful, custom agents</p>
+            </div>
+            <div class="vendors-grid">
+                <div class="vendor-card">
+                    <div class="vendor-card-content">
+                        <svg class="vendor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span class="vendor-name">Email</span>
+                    </div>
+                </div>
+                <div class="vendor-card">
+                    <div class="vendor-card-content">
+                        <svg class="vendor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        <span class="vendor-name">Calendar</span>
+                    </div>
+                </div>
+                <div class="vendor-card">
+                    <div class="vendor-card-content">
+                        <svg class="vendor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        <span class="vendor-name">Documents</span>
+                    </div>
+                </div>
+                <div class="vendor-card">
+                    <div class="vendor-card-content">
+                        <svg class="vendor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="vendor-name">E-commerce</span>
+                    </div>
+                </div>
+                <div class="vendor-card">
+                    <div class="vendor-card-content">
+                        <svg class="vendor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                            <line x1="1" y1="10" x2="23" y2="10"></line>
+                        </svg>
+                        <span class="vendor-name">Payments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="vendors-footer">
+                <p>And many more services available through our growing ecosystem</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Section -->
+    <section id="chat" class="chat-section">
+        <h2 class="chat-title">Book a Demo</h2>
+        <div class="chat-container">
+            <div class="chat-messages">
+                <div class="chat-messages-list">
+                    <div class="chat-message assistant">
+                        <div class="chat-avatar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+                                <path d="M7 17.73A2 2 0 1 1 7 15a2 2 0 0 1 0 2.73z"></path>
+                                <path d="M17 17.73A2 2 0 1 1 17 15a2 2 0 0 1 0 2.73z"></path>
+                            </svg>
+                        </div>
+                        <div class="chat-bubble">
+                            Hi there! I'm AgentIO. I can help you create AI agents that connect to different vendors. What would you like to build today?
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <form class="chat-form" id="chat-form">
+                        <input type="text" class="chat-input" id="chat-input" placeholder="Type your message..." />
+                        <button type="button" class="chat-button chat-button-mic" id="mic-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                <line x1="12" y1="19" x2="12" y2="23"></line>
+                                <line x1="8" y1="23" x2="16" y2="23"></line>
+                            </svg>
+                        </button>
+                        <button type="submit" class="chat-button chat-button-send" id="send-button" disabled>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                    <p class="chat-hint">Press the microphone icon or type to chat with AgentIO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="images/Logo-Agentio4.png" alt="AgentIO Logo" style="height: 80px;">
+            </div>
+            <div class="footer-content">
+                <nav class="footer-links">
+                    <a href="#" class="footer-link">Terms</a>
+                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </nav>
+                <p class="footer-copyright">&copy; 2025 AgentIO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sun">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
